@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6407159174715393390}
   m_Layer: 0
   m_Name: Food_Pizza_01 1
-  m_TagString: Respawn
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

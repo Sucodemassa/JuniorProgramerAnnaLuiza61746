@@ -487,7 +487,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 40
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -661,6 +661,54 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1776009642}
   m_SourcePrefab: {fileID: 100100000, guid: f3f69bcf5a1514c458ed5c9b96f28e34, type: 3}
+--- !u!1 &1484626799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1484626801}
+  - component: {fileID: 1484626800}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1484626800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484626799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 154f90d3139685e44a1b7ce4e8902e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnManager
+  animalPrefabs:
+  - {fileID: 304807402886848961, guid: 3528933556fd0d04898afdaaf77406b7, type: 3}
+  - {fileID: 4551075161138264788, guid: 0294a68accca3c7448cbb0370dd7c3c3, type: 3}
+  - {fileID: 8855759079609769504, guid: e37b8fb42ac83c44faf0f95415f8b300, type: 3}
+--- !u!4 &1484626801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484626799}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.48333, y: 0, z: 10.38281}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,10 +831,6 @@ PrefabInstance:
     - target: {fileID: 313641783104249537, guid: e2db28b56e8d9ae4a9b41af5b9b73f16, type: 3}
       propertyPath: m_Name
       value: Food_Pizza_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 313641783104249537, guid: e2db28b56e8d9ae4a9b41af5b9b73f16, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8822936127361874244, guid: e2db28b56e8d9ae4a9b41af5b9b73f16, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1016,3 +1060,4 @@ SceneRoots:
   - {fileID: 7147190309252942086}
   - {fileID: 3159195101983746543}
   - {fileID: 178064987016685229}
+  - {fileID: 1484626801}
