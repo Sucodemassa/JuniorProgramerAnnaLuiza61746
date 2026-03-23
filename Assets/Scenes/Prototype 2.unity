@@ -982,11 +982,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5451277949083862718, guid: e37b8fb42ac83c44faf0f95415f8b300, type: 3}
+      propertyPath: speed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8855759079609769504, guid: e37b8fb42ac83c44faf0f95415f8b300, type: 3}
       propertyPath: m_Name
       value: Animal_Moose_01
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1935844809210337650, guid: e37b8fb42ac83c44faf0f95415f8b300, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1039,11 +1044,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1078276222126683634, guid: 0294a68accca3c7448cbb0370dd7c3c3, type: 3}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 4551075161138264788, guid: 0294a68accca3c7448cbb0370dd7c3c3, type: 3}
       propertyPath: m_Name
       value: Animal_Fox_01
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1181974239857123214, guid: 0294a68accca3c7448cbb0370dd7c3c3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
